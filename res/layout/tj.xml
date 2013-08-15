@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/test_title_bg" >
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tj"
+            android:textColor="#ffffff"
+            android:textSize="18sp" /> 
+    </FrameLayout>
+
+    <HorizontalScrollView
+       
+        android:id="@+id/hscroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+       <RadioGroup
+            android:id="@+id/bar_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/tj_rd"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/sc_bar_selector"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/tj_text_rd" />
+
+            <RadioButton
+                android:id="@+id/tj_gx"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/tj_text_gx" />
+
+            <RadioButton
+                android:id="@+id/tj_mv"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                 android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/tj_text_mv" />
+
+            <RadioButton
+                android:id="@+id/tj_pk"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                 android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/tj_text_pk" />
+
+            <RadioButton
+                android:id="@+id/tj_yl"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/tj_text_yl" />
+
+            <RadioButton
+                android:id="@+id/tj_zy"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/tj_text_zy" />
+
+            <RadioButton
+                android:id="@+id/tj_dy"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/tj_text_dy" />
+
+            <RadioButton
+                android:id="@+id/tj_dsj"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/tj_text_dsj" />
+
+            <RadioButton
+                android:id="@+id/tj_hr"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/tj_text_hr" />
+
+            <RadioButton
+                android:id="@+id/tj_zb"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/tj_text_zb" />
+
+            <RadioButton
+                android:id="@+id/tj_nx"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/tj_text_nx" />
+
+            <RadioButton
+                android:id="@+id/tj_yx"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_margin="2dp"
+                 android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:text="@string/tj_text_yx" />
+
+           
+        </RadioGroup>
+    </HorizontalScrollView>
+<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+       <LinearLayout
+        android:background="#ffffff"
+        android:id="@+id/grid_lin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+   
+<include layout="@layout/progress_bar" android:id="@+id/pb"/>
+</FrameLayout>
+</LinearLayout>

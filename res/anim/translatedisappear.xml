@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  位置控制 -->
+	<translate android:repeatCount="0" android:fromXDelta="0"
+		android:toXDelta="0" android:fromYDelta="0" android:toYDelta="100"
+		android:duration="400" />
+	<!-- 透明控制动画 -->
+	<alpha android:fromAlpha="0.9" android:toAlpha="0.1"
+		android:duration="400" />
+</set>
+ 

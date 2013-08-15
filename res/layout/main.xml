@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+    </TabWidget>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/RadioGroup" >
+        </FrameLayout>
+
+        <RadioGroup
+            android:id="@id/RadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:paddingTop="5dp"
+                android:id="@id/hot_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_selector"
+                android:checked="true"
+                android:drawableTop="@drawable/main_bt_ico_hot"
+                android:gravity="center"
+                android:text="@string/main_bt_hot"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:paddingTop="5dp"
+                android:id="@id/tuijian_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_selector"
+                android:drawableTop="@drawable/main_bt_ico_tj"
+                android:gravity="center"
+                android:text="@string/main_bt_tj"
+                android:textSize="12sp" />
+
+            
+            <RadioButton
+                android:paddingTop="5dp"
+                android:id="@id/home_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_center_selector"
+                android:drawableTop="@drawable/main_bt_ico_home"
+                android:gravity="center"
+                android:text="@string/main_bt_home"
+                android:textSize="12sp" />
+            <RadioButton
+                android:paddingTop="5dp"
+                android:id="@id/local_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_selector"
+                android:drawableTop="@drawable/main_bt_ico_local"
+                android:gravity="center"
+                android:text="@string/main_bt_local"
+                android:textSize="12sp" />
+             <RadioButton
+                 android:paddingTop="5dp"
+                android:id="@id/user_id"
+                style="@style/main_radio_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bar_selector"
+                android:drawableTop="@drawable/main_bt_ico_user"
+                android:gravity="center"
+                android:text="@string/main_bt_down"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+       
+    </RelativeLayout>
+
+</TabHost>

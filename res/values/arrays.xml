@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="all_name"
+        >
+        <item >搞笑</item>
+        <item >原创</item>
+        <item >娱乐</item>
+        <item >资讯</item>
+        <item >汽车</item>
+        <item >体育</item>
+        <item >游戏</item>
+    </string-array>
+    <string-array
+        name="chiled_gaoxiao"
+        >
+        <item> 疯狂恶搞</item>
+        <item> 搞笑综艺</item>
+        <item> 原创搞笑</item>
+        <item> 爆笑宠物</item>
+        <item> 雷人囧事</item>
+        <item> 经典回顾</item>
+    </string-array>
+
+     <string-array
+        name="chiled_yc"
+        >
+        <item> 原创影视</item>
+        <item> 音乐动画</item>
+        <item> 火星搞笑</item>
+        <item> 校园作品</item>
+        <item> 网络红人</item>
+        <item> 拍客</item>
+    </string-array>
+    
+     <string-array
+        name="chiled_yl"
+        >
+        <item> 明星八卦</item>
+        <item>影视资讯</item>
+    </string-array>
+    
+ 
+     <string-array
+        name="chiled_zx"
+        >
+        <item> 社会</item>
+        <item> 国内</item>
+        <item> 国际</item>
+        <item> 财富</item>
+        <item> 科技</item>
+    </string-array>
+
+     <string-array
+        name="chiled_qc"
+        >
+        <item> 美女车模</item>
+        <item> 评测报告</item>
+        <item> 汽车广告</item>
+        <item>改装酷玩</item>
+        <item> 车型推荐</item>
+        <item>新车速递</item>
+    </string-array>
+ 
+     <string-array
+        name="chiled_ty"
+        >
+        <item> 篮球天地</item>
+        <item> 足球世界</item>
+        <item>综合体育</item>
+        <item> 极限运动</item>
+        <item> 武术摔角</item>
+        <item>美女花边</item>
+    </string-array>
+    
+    <string-array
+        name="chiled_yx"
+        >
+        <item> 网络游戏</item>
+        <item> 电子竞技</item>
+        <item>单机电玩</item>
+        <item> 游戏达人</item>
+        <item> 工会战队</item>
+    </string-array>
+</resources>

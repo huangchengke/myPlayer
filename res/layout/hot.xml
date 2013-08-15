@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+<!-- 
+显示title
+ -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/test_title_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="18sp" /> 
+    </FrameLayout>
+<!-- 
+可以左右滚动，添加了一个RadioGroup，RadioGroup添加了很多的RadioButton，RadioButton用来显示视频分类用的
+ -->
+    <HorizontalScrollView
+       
+        android:id="@+id/hscroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <RadioGroup
+            android:id="@+id/bar_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/bar_rd1"
+                style="@style/main_radio_botton"    
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/sc_bar_selector"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/hot_text_rd" />
+
+            <RadioButton
+                android:id="@+id/bar_rd2"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/hot_text_gx" />
+
+            <RadioButton
+                android:id="@+id/bar_rd3"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                 android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/hot_text_dm" />
+
+            <RadioButton
+                android:id="@+id/bar_rd4"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                 android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="@string/hot_text_yl" />
+
+            <RadioButton
+                android:id="@+id/bar_rd5"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_yc" />
+
+            <RadioButton
+                android:id="@+id/bar_rd6"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_ty" />
+
+            <RadioButton
+                android:id="@+id/bar_rd7"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_yy" />
+
+            <RadioButton
+                android:id="@+id/bar_rd8"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_nx" />
+
+            <RadioButton
+                android:id="@+id/bar_rd9"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_my" />
+
+            <RadioButton
+                android:id="@+id/bar_rd10"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_ly" />
+
+            <RadioButton
+                android:id="@+id/bar_rd11"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_qc" />
+
+            <RadioButton
+                android:id="@+id/bar_rd12"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_margin="2dp"
+                 android:layout_marginLeft="2dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:text="@string/hot_text_yx" />
+
+            <RadioButton
+                android:id="@+id/bar_rd13"
+                style="@style/main_radio_botton"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/sc_bar_selector"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                 android:layout_marginLeft="2dp"
+                android:text="@string/hot_text_kj" />
+        </RadioGroup>
+    </HorizontalScrollView>
+<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <!-- 用来动态添加listview用，每个分类有一个listview，会添加多个listview -->
+    <LinearLayout
+        android:background="#ffffff"
+        android:id="@+id/list_lin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+<include layout="@layout/progress_bar" android:id="@+id/pb"/>  <!-- 转圈圈的 progress_bar，开始加载数据时候，显示出来，获取数据后，隐藏-->
+</FrameLayout>
+</LinearLayout>

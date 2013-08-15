@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_bt_text_color">#EEEEE0</color>
+    <color name="list_color">#00000000</color>
+    
+    <color name="whilt">#ffffff</color>
+    <color name="more_select_bg">#EE9A00</color>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/test_title_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="更多功能"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dip"
+            android:background="@drawable/more_shape"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:id="@+id/AdLinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dip"
+                android:background="@drawable/line" />
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_margin="0.01dp"
+                android:background="@drawable/more_selector"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/mySave"
+                    android:layout_width="250dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="center_vertical"
+                    android:text="应用下载"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="8dip"
+                    android:padding="0dip"
+                    android:src="@drawable/jiantou" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dip"
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:id="@+id/r2"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_margin="0.01dp"
+                android:background="@drawable/more_selector"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/update_name"
+                    android:layout_width="250dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="center_vertical"
+                    android:text="火爆团购"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="8dip"
+                    android:padding="0dip"
+                    android:src="@drawable/jiantou" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dip"
+                android:background="@drawable/line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dip"
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:id="@+id/r3"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_margin="2dp"
+                android:background="@drawable/more_selector"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tuijian"
+                    android:layout_width="250dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="center_vertical"
+                    android:text="游戏下载"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="8dip"
+                    android:padding="0dip"
+                    android:src="@drawable/jiantou" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dip"
+                android:background="@drawable/line" />
+            
+             <TextView
+                 android:padding="5dp"
+                 android:layout_marginTop="15dp"
+                 android:textColor="#000000"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="视频由56视频网站提供，更多搞笑有趣的视频，尽在56视频网" />
+        </LinearLayout>
+
+       
+
+    </RelativeLayout>
+
+</LinearLayout>
